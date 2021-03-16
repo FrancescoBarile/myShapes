@@ -1,11 +1,15 @@
 Package: myShapes
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: My Shapes Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Francesco",
+           family = "Barile",
+           role = c("cre", "aut"),
+           email = "f.barile2@campus.unimib.it")
+Description: This is my cool package.
+License: LGPL (>= 3)
+URL: https://github.com/FrancescoBarile/myShapes
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

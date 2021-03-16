@@ -1,11 +1,6 @@
-#' Title
-#'
-#' @param tbl
-#'
-#' @return
+
 #' @export
-#'
-#' @examples
+#' @import dplyr
 average_mpg <- function(tbl) {
   tbl %>%
     group_by(cyl) %>%

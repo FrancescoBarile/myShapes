@@ -21,10 +21,10 @@ usethis::use_build_ignore("dev")
 # rstudioapi::navigateToFile( "DESCRIPTION" )
 usethis::use_description(
   list(
-    Title = "App title",
-    `Authors@R` = "person('Andrea', 'Melloncelli', email = 'andrea@vanlog.it', role = c('cre', 'aut'))",
-    Description = "A sentence describing the package.",
-    URL = "https://github.com/vanlog/R-for-data-science-2020"
+    Title = "My Shapes Package",
+    `Authors@R` = "person('Francesco', 'Barile', email = 'f.barile2@campus.unimib.it', role = c('cre', 'aut'))",
+    Description = "This is my cool package.",
+    URL = "https://github.com/FrancescoBarile/myShapes"
   )
 )
 usethis::use_lgpl_license()       # You can set another license here

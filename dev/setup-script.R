@@ -41,6 +41,12 @@ usethis::use_readme_md( open = FALSE )
 # usethis::use_testthat()
 # installed.packages("devtools")
 
+# Some useful keyboard shortcuts for package authoring:
+#
+#   Install Package:           'Ctrl + Shift + B'
+#   source as package:         'Ctrl + Shift + L'
+#   Check Package:             'Ctrl + Shift + E'
+#   Test Package:              'Ctrl + Shift + T'
 
 # Develop -----------------------------------------------------------------
 

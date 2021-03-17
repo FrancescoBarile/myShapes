@@ -17,3 +17,10 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(myShapes)
 ```
+
+#How to use a my package
+
+```{r}
+average_mpg(my_dataset)
+```
+

@@ -79,6 +79,7 @@ usethis::use_data_raw( name = "my_dataset", open = FALSE )
 ## Tests
 ## Add one line by test you want to create
 usethis::use_test( "division" )
+usethis::use_test( "area_triangle" )
 
 ## Vignette
 usethis::use_vignette("ThisTidyPackage")
@@ -86,6 +87,13 @@ devtools::build_vignettes()
 # Install the package and see it with `vignette("ThisTidyPackage")`
 # List your vignettes: vignette(package = 'cancRFDS')
 # Install your package manually: devtools::install(build_vignettes = TRUE)
+
+devtools::install(build_vignettes = TRUE)
+vignette(package = 'myShapes')
+vignette("ThisTidyPackage")
+
+#vignette(package = 'dplyr')
+#vignette("pivot", package = 'dplyr')
 
 # Deploy ------------------------------------------------------------------
 

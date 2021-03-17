@@ -24,3 +24,8 @@ library(myShapes)
 average_mpg(my_dataset)
 ```
 
+#Compute the area of a triangle
+```{r}
+area_triangle(5,4)
+```
+
